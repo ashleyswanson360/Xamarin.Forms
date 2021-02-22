@@ -5,7 +5,7 @@ using Xamarin.Forms.Internals;
 
 namespace Xamarin.Forms
 {
-	public class Entry : InputView, IFontElement, ITextAlignmentElement, IEntryController, IElementConfiguration<Entry>
+	public partial class Entry : InputView, IFontElement, ITextAlignmentElement, IEntryController, IElementConfiguration<Entry>
 	{
 		public static readonly BindableProperty ReturnTypeProperty = BindableProperty.Create(nameof(ReturnType), typeof(ReturnType), typeof(Entry), ReturnType.Default);
 
