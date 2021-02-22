@@ -15,6 +15,6 @@ namespace Xamarin.Platform.Handlers.DeviceTests
 			GetNativeEntry(entryHandler).TextColor.ToColor();
 
 		bool GetNativeIsPassword(EntryHandler entryHandler) =>
-		   GetNativeEntry(entryHandler).SecureTextEntry;
+			GetNativeEntry(entryHandler).SecureTextEntry;
 	}
 }
